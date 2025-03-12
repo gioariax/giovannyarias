@@ -1,0 +1,33 @@
+{ 
+  "title": "Bienvenido, {{username}}!" ,
+  "contact": "Contact",
+  "colombia": "Colombia",
+  "english": "Ingles",
+  "experience": "Experiencia",
+  "education": "Educación",
+  "month_one": "{{count}} mes",
+  "month_other": "{{count}} meses",
+  "skills": "Skills",
+  "period": "Periodo",
+  "present": "la fecha",
+  "projects": "Proyectos",
+  "spain": "España",
+  "spanish": "Español",
+  "toDate": "a",
+  "year_one": "{{count}} año",
+  "year_other": "{{count}} años",
+  "gftJobName": "Desarrollador Frontend Experto",
+  "gftJobDescription": "Como desarrollador frontend experto, he trabajado en proyectos de desarrollo de software para clientes de diferentes sectores, utilizando tecnologías como Angular, React, Vue, HTML, CSS, JavaScript, entre otras.",
+  "habiJobName": "Desarrollador Frontend Senior",
+  "sophosJobName": "Consultor Técnico Senior",
+  "unitecJobName": "Docente Arquitectura de la información",
+  "certicamaraJobName": "Desarrollador Líder Frontend",
+  "athJobName": "Desarrollador Líder Frontend",
+  "porvenirJobName": "Analista II (Desarrollador Fullstack) - Analista III (Desarrollador Líder)",
+  "servinteJobName": "Analista de Software (Desarrollador Fullstack)",
+  "developerTitle": "Desarrollador web / Arquitecto front-end",
+  "photographerTitle": "Fotógrafo / Diseñador gráfico"
+}
+
+
+  
