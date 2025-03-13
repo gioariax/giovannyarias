@@ -14,16 +14,6 @@ const HomeStyled = styled.div`
     display: flex;
     justify-content: flex-end;
   }
-
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: calc(100vh - 82px);
-    color: white;
-    gap: 24px;
-  }
 `;
 
 export default HomeStyled;

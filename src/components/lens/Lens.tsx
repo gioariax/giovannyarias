@@ -7,6 +7,7 @@ import {
 import { useEffect, useState } from "react"
 import LensStyled from "./LensStyled"
 import { useaAppStore } from "../../store/appStore"
+import { PROFILES } from "../../constants/constants"
 
 export default function Lens() {
     const [leftColorIndex, setLeftColorIndex] = useState(0)
@@ -46,9 +47,9 @@ export default function Lens() {
           <motion.div 
             className="line-left" 
             animate={{
-              opacity: profile === 'developer' ? 1 : 0,
-              backgroundColor: profile === 'developer' ? '#1DB533': '#242424',
-              width: profile === 'developer' ? '60px' : '0px'
+              opacity: profile === PROFILES.DEVELOPER ? 1 : 0,
+              backgroundColor: profile === PROFILES.DEVELOPER ? '#1DB533': '#242424',
+              width: profile === PROFILES.DEVELOPER ? '60px' : '0px'
             }}
             transition={{ duration: 0.5, ease: "easeInOut"}}
             initial={{ opacity: 0, width: '0px' }}>
@@ -66,9 +67,9 @@ export default function Lens() {
           <motion.div 
             className="line-right"
             animate={{
-              opacity: profile === 'photographer' ? 1 : 0,
-              backgroundColor: profile === 'photographer' ? '#FF003B': '#242424',
-              width: profile === 'photographer' ? '60px' : '0px'
+              opacity: profile === PROFILES.PHOTOGRAPHER ? 1 : 0,
+              backgroundColor: profile === PROFILES.PHOTOGRAPHER ? '#FF003B': '#242424',
+              width: profile === PROFILES.PHOTOGRAPHER ? '60px' : '0px'
             }}
             transition={{ duration: 0.5, ease: "easeInOut" }}
             initial={{ opacity: 0, width: '0px'  }}>
