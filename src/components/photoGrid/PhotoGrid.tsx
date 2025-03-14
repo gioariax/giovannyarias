@@ -1,4 +1,3 @@
-import { Gallery } from "../../lib/react-grid-library";
 import { PhotoGridStyled } from "./PhotoGridStyled";
 
 function PhotoGrid() {
